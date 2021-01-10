@@ -1,5 +1,5 @@
 ## diaskeuast
-a super simple css
+a super simple css—only 1.72 KB minified.
 
 just drop one of these in the `<head>` of your page
 ```html
