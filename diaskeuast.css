@@ -1,4 +1,14 @@
+@keyframes fi {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
 body {
+  animation: fi .6s;
   padding: 1em;
   font-family: -apple-system, sans-serif;
 }
