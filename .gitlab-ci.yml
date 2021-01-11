@@ -5,7 +5,7 @@ pages:
   script:
   - echo 'Nothing to do...'
   artifacts:
-    files: 
-    - index.html
+    paths: 
+    - ./
   only:
   - demo
