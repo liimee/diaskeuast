@@ -4,5 +4,8 @@ pages:
   stage: deploy
   script:
   - echo 'Nothing to do...'
+  artifacts:
+    files: 
+    - index.html
   only:
   - demo
