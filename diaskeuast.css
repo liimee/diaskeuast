@@ -121,6 +121,7 @@ button {
   border: none;
   background-color: #cecece;
   transition: transform .5s;
+  margin: 10px auto;
 }
 
 button:focus {
