@@ -79,6 +79,18 @@ success {
   word-wrap: break-word;
 }
 
+info {
+  display: block;
+  background-color: #2979f2;
+  border-radius: 8px;
+  border-left: solid 10px #1f4d91;
+  color: #fff;
+  padding: 1em;
+  margin: 10px 0;
+  max-width: 325px;
+  word-wrap: break-word;
+}
+
 blockquote {
   display: block;
   font-family: serif;
@@ -104,16 +116,22 @@ success:before {
   background-image: url('img/success.svg');
 }
 
+info:before {
+  background-image: url('img/info.svg');
+}
+
 warn:before,
 error:before,
-success:before {
-  background-position: center;
+success:before,
+info:before {
   width: 1em;
-  height: 1em;
   display: inline-block;
   content: '';
-  vertical-align: middle;
   margin: 5px;
+  height: 1em;
+  vertical-align: middle;
+  background-repeat: no-repeat;
+  background-position: left center;
 }
 
 button {
@@ -121,7 +139,6 @@ button {
   padding: 8px 12px;
   border: none;
   background-color: #cecece;
-  transition: transform .5s;
   margin: 10px auto;
 }
 
@@ -129,10 +146,6 @@ button:focus {
   padding: 6px 10px;
   border: solid 2px #727272;
   outline: none;
-}
-
-button:active {
-  transform: scale(.85);
 }
 
 code {
