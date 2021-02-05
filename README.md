@@ -5,7 +5,7 @@ a super simple css—only 2.23 KB minified.
 
 just drop one of these in the `<head>` of your page
 ```html
-https://rawcdn.githack.com/liimee/diaskeuast/1.2.0/diaskeuast.min.css
+<link rel="stylesheet" href="https://rawcdn.githack.com/liimee/diaskeuast/1.2.0/diaskeuast.min.css">
 ```
 then code HTML as usual!
 
